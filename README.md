@@ -54,3 +54,17 @@ A resposta esperada é:
 ```json
 {"status":"ok"}
 ```
+
+## Teste de saúde da API
+
+A rota `GET /api/health` verifica se a API está respondendo.
+
+Resposta esperada:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+O teste pode ser feito pelo endereço `http://localhost:5173/api/health` enquanto o site e a API estiverem em execução.
