@@ -1,7 +1,8 @@
-
 # Projeto ONG
 
 Projeto Integrador Extensionista II — Atividade 1.
+
+Projeto desenvolvido para praticar a criação de uma aplicação web com Vite+ e uma API utilizando Node.js e Express.
 
 ## Tecnologias
 
@@ -19,7 +20,9 @@ Projeto Integrador Extensionista II — Atividade 1.
 
 ## Como executar
 
-### 1. Instalar dependências
+### 1. Instalar as dependências
+
+Na pasta do projeto, execute:
 
 ```bash
 npm install
@@ -43,23 +46,13 @@ Em outro terminal, execute:
 npm run dev
 ```
 
-Abra o endereço mostrado no terminal, normalmente http://localhost:5173/.
+Abra o endereço exibido no terminal, normalmente `http://localhost:5173/`.
 
 ## Verificar a API
 
-Acesse http://localhost:5173/api/health.
+Acesse `http://localhost:5173/api/health` enquanto o site e a API estiverem em execução.
 
 A resposta esperada é:
-
-```json
-{"status":"ok"}
-```
-
-## Teste de saúde da API
-
-A rota `GET /api/health` verifica se a API está respondendo.
-
-Resposta esperada:
 
 ```json
 {
@@ -67,4 +60,4 @@ Resposta esperada:
 }
 ```
 
-O teste pode ser feito pelo endereço `http://localhost:5173/api/health` enquanto o site e a API estiverem em execução.
+
